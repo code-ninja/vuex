@@ -668,9 +668,9 @@ function install (_Vue) {
 }
 
 // auto install in dist mode
-if (typeof window !== 'undefined' && window.Vue) {
-  install(window.Vue);
-}
+// if (typeof window !== 'undefined' && window.Vue) {
+//   install(window.Vue);
+// }
 
 var mapState = normalizeNamespace(function (namespace, states) {
   var res = {};
